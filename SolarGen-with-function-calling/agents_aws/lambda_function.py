@@ -74,7 +74,6 @@ def get_coordinates(address):
 def get_solar_data(lat, lng):
   solar_api_url = f"https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude={lat}&location.longitude={lng}&requiredQuality=HIGH&key={os.getenv('GOOGLE_API')}"
   print(solar_api_url)
-  # solar_api_url = f"https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude= 33.8342152&location.longitude= -118.1731399&requiredQuality=HIGH&key=AIzaSyAYqrCkY0rYn3nKCQS4fPtrpGjGWzqUCJ8"
   # response = requests.get(solar_api_url)
   
   http = urllib3.PoolManager()
