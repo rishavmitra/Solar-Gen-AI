@@ -1,0 +1,5 @@
+/SolarGen-with-function-calling/.env
+/SolarGen-with-function-calling/openai/__pycache__
+/SolarGen-with-function-calling/__pycache__
+SolarGen-with-function-calling/django-ml-backend/ml_backend/__pycache__
+SolarGen-with-function-calling/django-ml-backend/regService/__pycache__
